@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# ✈️ Atlas Online - Dashboard de Gestion de Vols
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **Projet réalisé lors d'un stage technique chez [Royal Air Maroc](https://www.royalairmaroc.com)** 🇲🇦
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Context](https://img.shields.io/badge/Contexte-Stage_Professionnel-blue)
 
-In the project directory, you can run:
+## 📍 Contexte du Projet
 
-### `npm start`
+Ce projet a été conçu et développé durant mon stage au sein de la **Direction des Systèmes d'Information** de la Royal Air Maroc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+L'objectif était de moderniser l'interface de gestion des vols pour les administrateurs via :
+* La création d'un **Tableau de Bord (Dashboard)** interactif.
+* L'optimisation du suivi des réservations en temps réel.
+* La mise en place d'une architecture Full Stack scalable.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Stack Technique
+* **Frontend :** React.js
+* **Backend :** Node.js / Express
+* **Base de données :** MySQL (`vols_db.sql` inclus)
 
-### `npm test`
+## 🚀 Fonctionnalités
+* Tableau de bord administrateur.
+* Gestion des vols (CRUD).
+* Visualisation des statistiques.
+* Architecture prête pour le déploiement (Build effectué).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation locale
 
-### `npm run build`
+1. **Cloner le projet**
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   cd server && npm install
+   ```
+### 3. Configurer la Base de Données
+ *Importer vols_db.sql dans votre MySQL local.
+ *Configurer le fichier .env (si nécessaire).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 4. Lancer
+``` npm start ```
+### 👤 Auteur
+Youssef Barakat - Mon Profil GitHub
