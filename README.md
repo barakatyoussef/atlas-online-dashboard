@@ -33,8 +33,8 @@ L'objectif était de moderniser l'interface de gestion des vols pour les adminis
    cd server && npm install
    ```
 ### 3. Configurer la Base de Données
- *Importer vols_db.sql dans votre MySQL local.
- *Configurer le fichier .env (si nécessaire).
+ **Importer vols_db.sql dans votre MySQL local.**
+ **Configurer le fichier .env (si nécessaire).**
 
 ### 4. Lancer
 ``` npm start ```
